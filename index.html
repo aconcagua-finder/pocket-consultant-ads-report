@@ -1,0 +1,829 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pocket Consultant - Отчет по рекламным кампаниям | 3-15 июля 2025</title>
+    <meta name="description" content="Интерактивный анализ эффективности рекламных кампаний Pocket Consultant. Детальная статистика, графики и рекомендации по оптимизации ROI.">
+    <meta name="keywords" content="реклама, аналитика, CTR, CPA, конверсии, Яндекс.Директ, отчет">
+    <meta name="author" content="Pocket Consultant">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Pocket Consultant - Отчет по рекламным кампаниям">
+    <meta property="og:description" content="Интерактивный анализ эффективности рекламных кампаний с детальной статистикой и рекомендациями">
+    <meta property="og:site_name" content="Pocket Consultant Analytics">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:title" content="Pocket Consultant - Отчет по рекламным кампаниям">
+    <meta property="twitter:description" content="Интерактивный анализ эффективности рекламных кампаний с детальной статистикой">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.9.1/chart.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <div class="background-gradient"></div>
+    
+    <!-- Header -->
+    <header class="header" data-aos="fade-down">
+        <div class="container">
+            <div class="logo">
+                <i class="fas fa-chart-line"></i>
+                <span>Pocket Consultant</span>
+            </div>
+            <nav class="nav">
+                <a href="#overview">Обзор</a>
+                <a href="#campaigns">Кампании</a>
+                <a href="#analytics">Графики</a>
+                <a href="#groups">Группы</a>
+                <a href="#demographics">Демография</a>
+                <a href="#insights">Выводы</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="overview">
+        <div class="container">
+            <div class="hero-content" data-aos="fade-up" data-aos-delay="200">
+                <h1>Анализ эффективности рекламных кампаний</h1>
+                <p>Детальная статистика и ключевые метрики для оптимизации ROI</p>
+                <div class="report-period">
+                    <i class="fas fa-calendar-alt"></i>
+                    <span>Отчетный период: 3 - 15 июля 2025</span>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat-card" data-aos="zoom-in" data-aos-delay="400">
+                        <div class="stat-value">25 062₽</div>
+                        <div class="stat-label">Общий расход</div>
+                    </div>
+                    <div class="stat-card" data-aos="zoom-in" data-aos-delay="500">
+                        <div class="stat-value">90</div>
+                        <div class="stat-label">Конверсии</div>
+                    </div>
+                    <div class="stat-card" data-aos="zoom-in" data-aos-delay="600">
+                        <div class="stat-value">3.24%</div>
+                        <div class="stat-label">CTR</div>
+                    </div>
+                    <div class="stat-card" data-aos="zoom-in" data-aos-delay="700">
+                        <div class="stat-value">278₽</div>
+                        <div class="stat-label">CPA</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Overview -->
+    <section class="overview-section" id="campaigns">
+        <div class="container">
+            <h2 data-aos="fade-up">Обзор кампаний</h2>
+            
+            <div class="campaigns-grid">
+                <!-- Поисковая кампания -->
+                <div class="campaign-card best-performer" data-aos="fade-up" data-aos-delay="200">
+                    <div class="campaign-header">
+                        <div class="campaign-icon">
+                            <i class="fas fa-search"></i>
+                        </div>
+                        <div class="campaign-info">
+                            <h3>Поиск</h3>
+                            <p>#70020818</p>
+                        </div>
+                        <div class="performance-badge">
+                            <span>Лучшая</span>
+                        </div>
+                    </div>
+                    <div class="campaign-stats">
+                        <div class="stat-row">
+                            <span>Расход:</span>
+                            <strong>5 093₽</strong>
+                        </div>
+                        <div class="stat-row">
+                            <span>Конверсии:</span>
+                            <strong>20</strong>
+                        </div>
+                        <div class="stat-row">
+                            <span>CTR:</span>
+                            <strong class="positive">5.61%</strong>
+                        </div>
+                        <div class="stat-row">
+                            <span>CPA:</span>
+                            <strong>255₽</strong>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- РСЯ кампания -->
+                <div class="campaign-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="campaign-header">
+                        <div class="campaign-icon">
+                            <i class="fas fa-network-wired"></i>
+                        </div>
+                        <div class="campaign-info">
+                            <h3>РСЯ</h3>
+                            <p>#70020788</p>
+                        </div>
+                    </div>
+                    <div class="campaign-stats">
+                        <div class="stat-row">
+                            <span>Расход:</span>
+                            <strong>1 440₽</strong>
+                        </div>
+                        <div class="stat-row">
+                            <span>Конверсии:</span>
+                            <strong>4</strong>
+                        </div>
+                        <div class="stat-row">
+                            <span>CTR:</span>
+                            <strong class="negative">1.17%</strong>
+                        </div>
+                        <div class="stat-row">
+                            <span>CPA:</span>
+                            <strong>360₽</strong>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- МК кампания -->
+                <div class="campaign-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="campaign-header">
+                        <div class="campaign-icon">
+                            <i class="fas fa-robot"></i>
+                        </div>
+                        <div class="campaign-info">
+                            <h3>Мастер-кампания</h3>
+                            <p>#70094708</p>
+                        </div>
+                    </div>
+                    <div class="campaign-stats">
+                        <div class="stat-row">
+                            <span>Расход:</span>
+                            <strong>18 529₽</strong>
+                        </div>
+                        <div class="stat-row">
+                            <span>Конверсии:</span>
+                            <strong>66</strong>
+                        </div>
+                        <div class="stat-row">
+                            <span>CTR:</span>
+                            <strong>2.65%</strong>
+                        </div>
+                        <div class="stat-row">
+                            <span>CPA:</span>
+                            <strong>281₽</strong>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Analytics Section -->
+    <section class="analytics-section" id="analytics">
+        <div class="container">
+            <h2 data-aos="fade-up">Детальная аналитика</h2>
+            
+            <div class="charts-grid">
+                <!-- Распределение расходов -->
+                <div class="chart-container" data-aos="fade-up" data-aos-delay="200">
+                    <h3>Распределение бюджета</h3>
+                    <canvas id="budgetChart"></canvas>
+                </div>
+
+                <!-- CTR по кампаниям -->
+                <div class="chart-container" data-aos="fade-up" data-aos-delay="300">
+                    <h3>CTR по кампаниям</h3>
+                    <canvas id="ctrChart"></canvas>
+                </div>
+
+                <!-- Конверсии -->
+                <div class="chart-container" data-aos="fade-up" data-aos-delay="400">
+                    <h3>Конверсии по кампаниям</h3>
+                    <canvas id="conversionsChart"></canvas>
+                </div>
+
+                <!-- Демография -->
+                <div class="chart-container" data-aos="fade-up" data-aos-delay="500">
+                    <h3>Распределение по полу</h3>
+                    <canvas id="genderChart"></canvas>
+                </div>
+
+                <!-- Возрастные группы -->
+                <div class="chart-container" data-aos="fade-up" data-aos-delay="600">
+                    <h3>Эффективность по возрасту</h3>
+                    <canvas id="ageChart"></canvas>
+                </div>
+
+                <!-- Устройства -->
+                <div class="chart-container" data-aos="fade-up" data-aos-delay="700">
+                    <h3>Распределение по устройствам</h3>
+                    <canvas id="deviceChart"></canvas>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Detailed Groups Analysis -->
+    <section class="detailed-groups-section" id="groups">
+        <div class="container">
+            <h2 data-aos="fade-up">Детальный анализ групп объявлений</h2>
+            
+            <!-- Search Campaign Groups -->
+            <div class="campaign-groups-block" data-aos="fade-up" data-aos-delay="200">
+                <h3><i class="fas fa-search"></i> Поисковая кампания</h3>
+                <div class="groups-grid">
+                    <div class="group-card best-group">
+                        <div class="group-header">
+                            <h4>Налоговый вычет</h4>
+                            <span class="group-id">#5596553557</span>
+                            <div class="performance-badge best">Лидер</div>
+                        </div>
+                        <div class="group-stats">
+                            <div class="stat-item">
+                                <span>Расход:</span>
+                                <strong>2 219₽</strong>
+                            </div>
+                            <div class="stat-item">
+                                <span>Показы:</span>
+                                <strong>11 042</strong>
+                            </div>
+                            <div class="stat-item">
+                                <span>Клики:</span>
+                                <strong>704</strong>
+                            </div>
+                            <div class="stat-item">
+                                <span>Конверсии:</span>
+                                <strong class="positive">9</strong>
+                            </div>
+                            <div class="stat-item">
+                                <span>CTR:</span>
+                                <strong class="positive">6.38%</strong>
+                            </div>
+                            <div class="stat-item">
+                                <span>CPA:</span>
+                                <strong class="positive">247₽</strong>
+                            </div>
+                            <div class="stat-item">
+                                <span>Конверсия:</span>
+                                <strong>1.28%</strong>
+                            </div>
+                            <div class="stat-item">
+                                <span>Отказы:</span>
+                                <strong>54.07%</strong>
+                            </div>
+                        </div>
+                        <div class="group-details">
+                            <span><i class="fas fa-ad"></i> 3 объявления</span>
+                            <span><i class="fas fa-key"></i> 11 ключевых фраз</span>
+                        </div>
+                    </div>
+
+                    <div class="group-card good-group">
+                        <div class="group-header">
+                            <h4>Возврат некачественного товара</h4>
+                            <span class="group-id">#5596562828</span>
+                        </div>
+                        <div class="group-stats">
+                            <div class="stat-item">
+                                <span>Расход:</span>
+                                <strong>900₽</strong>
+                            </div>
+                            <div class="stat-item">
+                                <span>Показы:</span>
+                                <strong>1 534</strong>
+                            </div>
+                            <div class="stat-item">
+                                <span>Клики:</span>
+                                <strong>84</strong>
+                            </div>
+                            <div class="stat-item">
+                                <span>Конверсии:</span>
+                                <strong class="positive">3</strong>
+                            </div>
+                            <div class="stat-item">
+                                <span>CTR:</span>
+                                <strong class="positive">5.48%</strong>
+                            </div>
+                            <div class="stat-item">
+                                <span>CPA:</span>
+                                <strong>300₽</strong>
+                            </div>
+                            <div class="stat-item">
+                                <span>Конверсия:</span>
+                                <strong>3.57%</strong>
+                            </div>
+                            <div class="stat-item">
+                                <span>Отказы:</span>
+                                <strong>54.76%</strong>
+                            </div>
+                        </div>
+                        <div class="group-details">
+                            <span><i class="fas fa-ad"></i> 3 объявления</span>
+                            <span><i class="fas fa-key"></i> 16 ключевых фраз</span>
+                        </div>
+                    </div>
+
+                    <div class="group-card good-group">
+                        <div class="group-header">
+                            <h4>Алименты и выплаты на детей</h4>
+                            <span class="group-id">#5596563984</span>
+                        </div>
+                        <div class="group-stats">
+                            <div class="stat-item">
+                                <span>Расход:</span>
+                                <strong>720₽</strong>
+                            </div>
+                            <div class="stat-item">
+                                <span>Показы:</span>
+                                <strong>2 378</strong>
+                            </div>
+                            <div class="stat-item">
+                                <span>Клики:</span>
+                                <strong>169</strong>
+                            </div>
+                            <div class="stat-item">
+                                <span>Конверсии:</span>
+                                <strong class="positive">4</strong>
+                            </div>
+                            <div class="stat-item">
+                                <span>CTR:</span>
+                                <strong class="positive">7.11%</strong>
+                            </div>
+                            <div class="stat-item">
+                                <span>CPA:</span>
+                                <strong class="positive">180₽</strong>
+                            </div>
+                            <div class="stat-item">
+                                <span>Конверсия:</span>
+                                <strong>2.37%</strong>
+                            </div>
+                            <div class="stat-item">
+                                <span>Отказы:</span>
+                                <strong>55.06%</strong>
+                            </div>
+                        </div>
+                        <div class="group-details">
+                            <span><i class="fas fa-ad"></i> 2 объявления</span>
+                            <span><i class="fas fa-key"></i> 12 ключевых фраз</span>
+                        </div>
+                    </div>
+
+                    <div class="group-card average-group">
+                        <div class="group-header">
+                            <h4>Расчет налогов</h4>
+                            <span class="group-id">#5586478764</span>
+                        </div>
+                        <div class="group-stats">
+                            <div class="stat-item">
+                                <span>Расход:</span>
+                                <strong>694₽</strong>
+                            </div>
+                            <div class="stat-item">
+                                <span>Показы:</span>
+                                <strong>4 581</strong>
+                            </div>
+                            <div class="stat-item">
+                                <span>Клики:</span>
+                                <strong>236</strong>
+                            </div>
+                            <div class="stat-item">
+                                <span>Конверсии:</span>
+                                <strong>2</strong>
+                            </div>
+                            <div class="stat-item">
+                                <span>CTR:</span>
+                                <strong>5.15%</strong>
+                            </div>
+                            <div class="stat-item">
+                                <span>CPA:</span>
+                                <strong>347₽</strong>
+                            </div>
+                            <div class="stat-item">
+                                <span>Конверсия:</span>
+                                <strong>0.85%</strong>
+                            </div>
+                            <div class="stat-item">
+                                <span>Отказы:</span>
+                                <strong>50.22%</strong>
+                            </div>
+                        </div>
+                        <div class="group-details">
+                            <span><i class="fas fa-ad"></i> 3 объявления</span>
+                            <span><i class="fas fa-key"></i> 9 ключевых фраз</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- RSY Campaign Groups -->
+            <div class="campaign-groups-block" data-aos="fade-up" data-aos-delay="400">
+                <h3><i class="fas fa-network-wired"></i> Рекламная Сеть Яндекса (РСЯ)</h3>
+                <div class="groups-grid">
+                    <div class="group-card best-group">
+                        <div class="group-header">
+                            <h4>Нейросеть - общая</h4>
+                            <span class="group-id">#5584607560</span>
+                            <div class="performance-badge good">Топ РСЯ</div>
+                        </div>
+                        <div class="group-stats">
+                            <div class="stat-item">
+                                <span>Расход:</span>
+                                <strong>1 080₽</strong>
+                            </div>
+                            <div class="stat-item">
+                                <span>Показы:</span>
+                                <strong>1 920</strong>
+                            </div>
+                            <div class="stat-item">
+                                <span>Клики:</span>
+                                <strong>22</strong>
+                            </div>
+                            <div class="stat-item">
+                                <span>Конверсии:</span>
+                                <strong class="positive">3</strong>
+                            </div>
+                            <div class="stat-item">
+                                <span>CTR:</span>
+                                <strong>1.15%</strong>
+                            </div>
+                            <div class="stat-item">
+                                <span>CPA:</span>
+                                <strong>360₽</strong>
+                            </div>
+                            <div class="stat-item">
+                                <span>Конверсия:</span>
+                                <strong class="positive">13.64%</strong>
+                            </div>
+                            <div class="stat-item">
+                                <span>Отказы:</span>
+                                <strong class="positive">31.82%</strong>
+                            </div>
+                        </div>
+                        <div class="group-details">
+                            <span><i class="fas fa-ad"></i> 6 объявлений</span>
+                            <span><i class="fas fa-key"></i> 0 ключевых фраз</span>
+                        </div>
+                    </div>
+
+                    <div class="group-card average-group">
+                        <div class="group-header">
+                            <h4>Защита прав потребителей</h4>
+                            <span class="group-id">#5594409581</span>
+                        </div>
+                        <div class="group-stats">
+                            <div class="stat-item">
+                                <span>Расход:</span>
+                                <strong>360₽</strong>
+                            </div>
+                            <div class="stat-item">
+                                <span>Показы:</span>
+                                <strong>3 447</strong>
+                            </div>
+                            <div class="stat-item">
+                                <span>Клики:</span>
+                                <strong>29</strong>
+                            </div>
+                            <div class="stat-item">
+                                <span>Конверсии:</span>
+                                <strong>1</strong>
+                            </div>
+                            <div class="stat-item">
+                                <span>CTR:</span>
+                                <strong>0.84%</strong>
+                            </div>
+                            <div class="stat-item">
+                                <span>CPA:</span>
+                                <strong>360₽</strong>
+                            </div>
+                            <div class="stat-item">
+                                <span>Конверсия:</span>
+                                <strong>3.45%</strong>
+                            </div>
+                            <div class="stat-item">
+                                <span>Отказы:</span>
+                                <strong>37.5%</strong>
+                            </div>
+                        </div>
+                        <div class="group-details">
+                            <span><i class="fas fa-ad"></i> 6 объявлений</span>
+                            <span><i class="fas fa-key"></i> 4 ключевые фразы</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Demographics & Geography Section -->
+    <section class="demographics-section" id="demographics">
+        <div class="container">
+            <h2 data-aos="fade-up">Демографическая и географическая аналитика</h2>
+            
+            <!-- Gender & Age Analysis -->
+            <div class="demo-grid" data-aos="fade-up" data-aos-delay="200">
+                <div class="demo-card">
+                    <h3><i class="fas fa-venus-mars"></i> Анализ по полу</h3>
+                    <div class="demo-stats">
+                        <div class="demo-item best">
+                            <div class="demo-header">
+                                <span class="demo-label">Женщины</span>
+                                <span class="demo-percentage">59%</span>
+                            </div>
+                            <div class="demo-details">
+                                <span>38 572 показа • 1 085 кликов</span>
+                                <span>47 конверсий • <strong class="positive">CPA: 241₽</strong></span>
+                                <span>Расход: 11 305₽</span>
+                            </div>
+                        </div>
+                        <div class="demo-item">
+                            <div class="demo-header">
+                                <span class="demo-label">Мужчины</span>
+                                <span class="demo-percentage">35%</span>
+                            </div>
+                            <div class="demo-details">
+                                <span>22 749 показов • 570 кликов</span>
+                                <span>19 конверсий • <strong class="negative">CPA: 372₽</strong></span>
+                                <span>Расход: 7 065₽</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="demo-card">
+                    <h3><i class="fas fa-user-clock"></i> Анализ по возрасту</h3>
+                    <div class="demo-stats">
+                        <div class="demo-item best">
+                            <div class="demo-header">
+                                <span class="demo-label">25-34 года</span>
+                                <span class="demo-percentage">12%</span>
+                            </div>
+                            <div class="demo-details">
+                                <span>12 760 показов • 417 кликов</span>
+                                <span>26 конверсий • <strong class="positive">CPA: 207₽</strong></span>
+                                <span>Расход: 5 386₽</span>
+                            </div>
+                        </div>
+                        <div class="demo-item good">
+                            <div class="demo-header">
+                                <span class="demo-label">18-24 года</span>
+                                <span class="demo-percentage">8%</span>
+                            </div>
+                            <div class="demo-details">
+                                <span>8 287 показов • 349 кликов</span>
+                                <span>14 конверсий • <strong>CPA: 328₽</strong></span>
+                                <span>Расход: 4 592₽</span>
+                            </div>
+                        </div>
+                        <div class="demo-item average">
+                            <div class="demo-header">
+                                <span class="demo-label">35-44 года</span>
+                                <span class="demo-percentage">14%</span>
+                            </div>
+                            <div class="demo-details">
+                                <span>14 208 показов • 359 кликов</span>
+                                <span>13 конверсий • <strong>CPA: 314₽</strong></span>
+                                <span>Расход: 4 079₽</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Geography Analysis -->
+            <div class="geography-section" data-aos="fade-up" data-aos-delay="400">
+                <h3><i class="fas fa-map-marked-alt"></i> Географическое распределение</h3>
+                <div class="regions-grid">
+                    <div class="region-card best">
+                        <div class="region-header">
+                            <h4>Дальневосточный ФО</h4>
+                            <span class="region-badge">Лидер по объему</span>
+                        </div>
+                        <div class="region-stats">
+                            <div class="stat-pair">
+                                <span>Конверсии:</span>
+                                <strong>9</strong>
+                            </div>
+                            <div class="stat-pair">
+                                <span>CPA:</span>
+                                <strong class="neutral">398₽</strong>
+                            </div>
+                            <div class="stat-pair">
+                                <span>Расход:</span>
+                                <strong>3 585₽</strong>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="region-card good">
+                        <div class="region-header">
+                            <h4>Северо-Западный ФО</h4>
+                            <span class="region-badge good">Лучший CPA</span>
+                        </div>
+                        <div class="region-stats">
+                            <div class="stat-pair">
+                                <span>Конверсии:</span>
+                                <strong>11</strong>
+                            </div>
+                            <div class="stat-pair">
+                                <span>CPA:</span>
+                                <strong class="positive">204₽</strong>
+                            </div>
+                            <div class="stat-pair">
+                                <span>Расход:</span>
+                                <strong>2 248₽</strong>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="region-card good">
+                        <div class="region-header">
+                            <h4>Южный ФО</h4>
+                            <span class="region-badge good">Эффективный</span>
+                        </div>
+                        <div class="region-stats">
+                            <div class="stat-pair">
+                                <span>Конверсии:</span>
+                                <strong>6</strong>
+                            </div>
+                            <div class="stat-pair">
+                                <span>CPA:</span>
+                                <strong class="positive">177₽</strong>
+                            </div>
+                            <div class="stat-pair">
+                                <span>Расход:</span>
+                                <strong>1 060₽</strong>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="region-card average">
+                        <div class="region-header">
+                            <h4>Центральный ФО</h4>
+                        </div>
+                        <div class="region-stats">
+                            <div class="stat-pair">
+                                <span>Конверсии:</span>
+                                <strong>10</strong>
+                            </div>
+                            <div class="stat-pair">
+                                <span>CPA:</span>
+                                <strong>312₽</strong>
+                            </div>
+                            <div class="stat-pair">
+                                <span>Расход:</span>
+                                <strong>3 121₽</strong>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Device Analysis -->
+            <div class="devices-section" data-aos="fade-up" data-aos-delay="600">
+                <h3><i class="fas fa-devices"></i> Анализ по устройствам</h3>
+                <div class="devices-grid">
+                    <div class="device-card dominant">
+                        <div class="device-icon">
+                            <i class="fas fa-mobile-alt"></i>
+                        </div>
+                        <div class="device-info">
+                            <h4>Смартфоны</h4>
+                            <span class="device-share">87%</span>
+                            <div class="device-stats">
+                                <div>56 438 показов • 1 455 кликов</div>
+                                <div>49 конверсий • <strong>CPA: 310₽</strong></div>
+                                <div>Расход: <strong>15 186₽</strong></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="device-card secondary">
+                        <div class="device-icon">
+                            <i class="fas fa-desktop"></i>
+                        </div>
+                        <div class="device-info">
+                            <h4>Десктопы</h4>
+                            <span class="device-share">12%</span>
+                            <div class="device-stats">
+                                <div>8 107 показов • 246 кликов</div>
+                                <div>15 конверсий • <strong class="positive">CPA: 195₽</strong></div>
+                                <div>Расход: <strong>2 932₽</strong></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="device-card minimal">
+                        <div class="device-icon">
+                            <i class="fas fa-tablet-alt"></i>
+                        </div>
+                        <div class="device-info">
+                            <h4>Планшеты</h4>
+                            <span class="device-share">1%</span>
+                            <div class="device-stats">
+                                <div>498 показов • 19 кликов</div>
+                                <div>1 конверсия • <strong class="negative">CPA: 427₽</strong></div>
+                                <div>Расход: <strong>427₽</strong></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Key Insights -->
+    <section class="insights-section" id="insights">
+        <div class="container">
+            <h2 data-aos="fade-up">Ключевые выводы и рекомендации</h2>
+            
+            <div class="insights-grid">
+                <div class="insight-card positive" data-aos="fade-up" data-aos-delay="200">
+                    <div class="insight-icon">
+                        <i class="fas fa-trophy"></i>
+                    </div>
+                    <h3>Поисковая реклама - лидер</h3>
+                    <p>Самый высокий CTR (5.61%) и низкий CPA (255₽). Рекомендуется увеличить бюджет на поисковые кампании.</p>
+                </div>
+                
+                <div class="insight-card warning" data-aos="fade-up" data-aos-delay="300">
+                    <div class="insight-icon">
+                        <i class="fas fa-exclamation-triangle"></i>
+                    </div>
+                    <h3>РСЯ требует оптимизации</h3>
+                    <p>Низкий CTR (1.17%) и высокий CPA (360₽). Необходимо пересмотреть таргетинг и креативы.</p>
+                </div>
+                
+                <div class="insight-card info" data-aos="fade-up" data-aos-delay="400">
+                    <div class="insight-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3>Женская аудитория эффективнее</h3>
+                    <p>CPA у женщин (241₽) на 35% ниже чем у мужчин (372₽). Стоит усилить таргетинг на женскую аудиторию.</p>
+                </div>
+                
+                <div class="insight-card success" data-aos="fade-up" data-aos-delay="500">
+                    <div class="insight-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>Мобильный трафик доминирует</h3>
+                    <p>87% показов приходится на смартфоны. Важно оптимизировать landing page для мобильных устройств.</p>
+                </div>
+                
+                <div class="insight-card info" data-aos="fade-up" data-aos-delay="600">
+                    <div class="insight-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Возрастная группа 25-34 самая выгодная</h3>
+                    <p>Самый низкий CPA (207₽) в группе 25-34 года. Рекомендуется усилить таргетинг на эту аудиторию.</p>
+                </div>
+                
+                <div class="insight-card info" data-aos="fade-up" data-aos-delay="700">
+                    <div class="insight-icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <h3>Географическое распределение неравномерно</h3>
+                    <p>Южный ФО показывает лучший CPA (177₽), а Дальневосточный - наибольший объем конверсий (9). Стоит перераспределить бюджет.</p>
+                </div>
+                
+                <div class="insight-card success" data-aos="fade-up" data-aos-delay="800">
+                    <div class="insight-icon">
+                        <i class="fas fa-crown"></i>
+                    </div>
+                    <h3>Группа "Налоговый вычет" - абсолютный лидер</h3>
+                    <p>Лучший CPA (247₽) и высокий CTR (6.38%) при большом объеме. Нужно масштабировать эту группу и создать похожие.</p>
+                </div>
+                
+                <div class="insight-card warning" data-aos="fade-up" data-aos-delay="900">
+                    <div class="insight-icon">
+                        <i class="fas fa-tablet-alt"></i>
+                    </div>
+                    <h3>Планшеты показывают высокий CPA</h3>
+                    <p>CPA на планшетах (427₽) в 2 раза выше среднего. При 1% трафика стоит рассмотреть отключение или снижение ставок.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <i class="fas fa-chart-line"></i>
+                    <span>Pocket Consultant Analytics</span>
+                </div>
+                <div class="footer-text">
+                    <p>Отчет создан автоматически на основе данных рекламных кампаний</p>
+                    <p>Дата создания: <span id="currentDate"></span></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
