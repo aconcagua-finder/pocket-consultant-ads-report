@@ -59,14 +59,14 @@ const periodsData = {
         name: '16 июля - 3 августа 2025',
         dateRange: '16 июля - 3 августа 2025',
         stats: {
-            budget: 17952,
+            budget: 21542,
             conversions: 100,
             ctr: 3.68,
-            cpa: 180
+            cpa: 215
         },
         campaigns: {
             labels: ['МК pocket-consultant', 'ad_poisk_PocketConsult'],
-            budget: [15127, 2825],
+            budget: [18152, 3390],
             ctr: {
                 labels: ['ad_poisk_PocketConsult', 'МК pocket-consultant'],
                 data: [4.35, 3.32]
@@ -80,7 +80,7 @@ const periodsData = {
             },
             age: {
                 labels: ['18-24', '25-34', '35-44', '45-54', '55+'],
-                cpa: [155, 157, 178, 183, 343],
+                cpa: [186, 188, 214, 220, 412],
                 conversions: [28, 33, 22, 12, 5]
             }
         },
@@ -89,29 +89,29 @@ const periodsData = {
             data: [85, 14, 1]
         },
         regions: [
-            { name: 'Дальневосточный ФО', conversions: 16, cpa: 170, budget: 2712, badge: 'Лидер по конверсиям' },
-            { name: 'Центральный ФО', conversions: 14, cpa: 189, budget: 2640 },
-            { name: 'Северо-Западный ФО', conversions: 13, cpa: 161, budget: 2088 },
-            { name: 'Приволжский ФО', conversions: 12, cpa: 192, budget: 2302 },
-            { name: 'Уральский ФО', conversions: 12, cpa: 116, budget: 1393, badge: 'Лучший CPA' },
-            { name: 'Сибирский ФО', conversions: 10, cpa: 165, budget: 1652 },
-            { name: 'Южный ФО', conversions: 10, cpa: 126, budget: 1258, badge: 'Эффективный' },
-            { name: 'Северо-Кавказский ФО', conversions: 1, cpa: 639, budget: 639, badge: 'Низкая эффективность' },
-            { name: 'Республика Крым', conversions: 1, cpa: 356, budget: 356 }
+            { name: 'Дальневосточный ФО', conversions: 16, cpa: 203, budget: 3254, badge: 'Лидер по конверсиям' },
+            { name: 'Центральный ФО', conversions: 14, cpa: 226, budget: 3168 },
+            { name: 'Северо-Западный ФО', conversions: 13, cpa: 193, budget: 2506 },
+            { name: 'Приволжский ФО', conversions: 12, cpa: 230, budget: 2762 },
+            { name: 'Уральский ФО', conversions: 12, cpa: 139, budget: 1672, badge: 'Лучший CPA' },
+            { name: 'Сибирский ФО', conversions: 10, cpa: 198, budget: 1982 },
+            { name: 'Южный ФО', conversions: 10, cpa: 151, budget: 1510, badge: 'Эффективный' },
+            { name: 'Северо-Кавказский ФО', conversions: 1, cpa: 767, budget: 767, badge: 'Низкая эффективность' },
+            { name: 'Республика Крым', conversions: 1, cpa: 427, budget: 427 }
         ]
     },
     periodAll: { // Все время (3 июля - 3 августа)
         name: 'Все время',
         dateRange: '3 июля - 3 августа 2025',
         stats: {
-            budget: 43014,
+            budget: 46604,
             conversions: 190,
             ctr: 3.46, // среднее
-            cpa: 226 // средневзвешенное
+            cpa: 245 // средневзвешенное
         },
         campaigns: {
             labels: ['Мастер-кампании', 'Поиск', 'РСЯ'],
-            budget: [33656, 7918, 1440],
+            budget: [36681, 8483, 1440],
             ctr: {
                 labels: ['Поиск', 'РСЯ', 'Мастер-кампании'],
                 data: [5.10, 1.17, 2.89]
@@ -134,13 +134,15 @@ const periodsData = {
             data: [86, 13, 1]
         },
         regions: [
-            { name: 'Дальневосточный ФО', conversions: 25, cpa: 240, budget: 6297, badge: 'Лидер по конверсиям' },
-            { name: 'Центральный ФО', conversions: 24, cpa: 238, budget: 5761 },
-            { name: 'Северо-Западный ФО', conversions: 24, cpa: 180, budget: 4336, badge: 'Эффективный' },
-            { name: 'Приволжский ФО', conversions: 12, cpa: 192, budget: 2302 },
-            { name: 'Южный ФО', conversions: 16, cpa: 146, budget: 2318, badge: 'Лучший CPA' },
-            { name: 'Уральский ФО', conversions: 12, cpa: 116, budget: 1393 },
-            { name: 'Сибирский ФО', conversions: 10, cpa: 165, budget: 1652 }
+            { name: 'Дальневосточный ФО', conversions: 25, cpa: 271, budget: 6839, badge: 'Лидер по конверсиям' },
+            { name: 'Центральный ФО', conversions: 24, cpa: 268, budget: 6289 },
+            { name: 'Северо-Западный ФО', conversions: 24, cpa: 197, budget: 4754, badge: 'Эффективный' },
+            { name: 'Приволжский ФО', conversions: 12, cpa: 230, budget: 2762 },
+            { name: 'Южный ФО', conversions: 16, cpa: 163, budget: 2570, badge: 'Лучший CPA' },
+            { name: 'Уральский ФО', conversions: 12, cpa: 139, budget: 1672 },
+            { name: 'Сибирский ФО', conversions: 10, cpa: 198, budget: 1982 },
+            { name: 'Северо-Кавказский ФО', conversions: 1, cpa: 767, budget: 767 },
+            { name: 'Республика Крым', conversions: 1, cpa: 427, budget: 427 }
         ]
     }
 };
@@ -272,7 +274,7 @@ function updateCampaignCards(data) {
                 <div class="campaign-stats">
                     <div class="stat-row">
                         <span>Расход:</span>
-                        <strong>15 127₽</strong>
+                        <strong>18 152₽</strong>
                     </div>
                     <div class="stat-row">
                         <span>Конверсии:</span>
@@ -284,7 +286,7 @@ function updateCampaignCards(data) {
                     </div>
                     <div class="stat-row">
                         <span>CPA:</span>
-                        <strong class="positive">168₽</strong>
+                        <strong class="positive">202₽</strong>
                     </div>
                 </div>
             </div>
@@ -303,7 +305,7 @@ function updateCampaignCards(data) {
                 <div class="campaign-stats">
                     <div class="stat-row">
                         <span>Расход:</span>
-                        <strong>2 825₽</strong>
+                        <strong>3 390₽</strong>
                     </div>
                     <div class="stat-row">
                         <span>Конверсии:</span>
@@ -315,7 +317,7 @@ function updateCampaignCards(data) {
                     </div>
                     <div class="stat-row">
                         <span>CPA:</span>
-                        <strong>283₽</strong>
+                        <strong>339₽</strong>
                     </div>
                 </div>
             </div>
@@ -438,8 +440,8 @@ function updateDemographics(data) {
     
     if (currentPeriod === 'period2') {
         genderStats = {
-            women: { shows: 13980, clicks: 487, conversions: 67, cpa: 152, budget: 10184 },
-            men: { shows: 6770, clicks: 212, conversions: 22, cpa: 220, budget: 4848 }
+            women: { shows: 13980, clicks: 487, conversions: 67, cpa: 182, budget: 12221 },
+            men: { shows: 6770, clicks: 212, conversions: 22, cpa: 264, budget: 5808 }
         };
     } else if (currentPeriod === 'periodAll') {
         genderStats = {
@@ -522,10 +524,10 @@ function updateRegions(data) {
     if (!regionsGrid || !data.regions) return;
     
     regionsGrid.innerHTML = data.regions.map(region => `
-        <div class="region-card ${region.cpa < 180 ? 'best' : region.cpa < 250 ? 'good' : region.cpa < 400 ? 'average' : 'poor'}">
+        <div class="region-card ${region.cpa < 200 ? 'best' : region.cpa < 250 ? 'good' : region.cpa < 400 ? 'average' : 'poor'}">
             <div class="region-header">
                 <h4>${region.name}</h4>
-                ${region.badge ? `<span class="region-badge ${region.cpa < 180 ? '' : region.cpa > 500 ? 'poor' : 'good'}">${region.badge}</span>` : ''}
+                ${region.badge ? `<span class="region-badge ${region.cpa < 200 ? '' : region.cpa > 500 ? 'poor' : 'good'}">${region.badge}</span>` : ''}
             </div>
             <div class="region-stats">
                 <div class="stat-pair">
@@ -559,9 +561,9 @@ function updateDevices(data) {
     
     if (currentPeriod === 'period2') {
         deviceStats = {
-            smartphones: { shows: 17971, clicks: 566, conversions: 70, cpa: 182, budget: 12729 },
+            smartphones: { shows: 17971, clicks: 566, conversions: 70, cpa: 218, budget: 15275 },
             desktops: { shows: 3061, clicks: 127, conversions: 19, cpa: 115, budget: 2181 },
-            tablets: { shows: 200, clicks: 12, conversions: 1, cpa: 217, budget: 217 }
+            tablets: { shows: 200, clicks: 12, conversions: 1, cpa: 260, budget: 260 }
         };
     } else if (currentPeriod === 'periodAll') {
         deviceStats = {
@@ -655,7 +657,7 @@ function updateInsights(periodKey) {
             {
                 icon: 'fa-venus',
                 title: 'Женщины конвертируются лучше',
-                text: 'CPA женщин на 35% ниже мужчин (241₽ vs 372₽). Усилить таргетинг на женскую аудиторию.'
+                text: 'CPA женщин на 31% ниже мужчин (182₽ vs 264₽). Усилить таргетинг на женскую аудиторию.'
             },
             {
                 icon: 'fa-users',
@@ -694,7 +696,7 @@ function updateInsights(periodKey) {
             {
                 icon: 'fa-robot',
                 title: 'Мастер-кампания доминирует',
-                text: 'CPA 168₽ с 90 конверсиями из 100. Эффективная автоматизация таргетинга.'
+                text: 'CPA 202₽ с 90 конверсиями из 100. Эффективная автоматизация таргетинга.'
             },
             {
                 icon: 'fa-venus',
@@ -709,7 +711,7 @@ function updateInsights(periodKey) {
             {
                 icon: 'fa-desktop',
                 title: 'Десктопы улучшились',
-                text: 'CPA снизился до 115₽, доля выросла до 14%. Продолжать оптимизацию.'
+                text: 'CPA снизился до 138₽, доля выросла до 14%. Продолжать оптимизацию.'
             },
             {
                 icon: 'fa-exclamation-circle',
@@ -719,7 +721,7 @@ function updateInsights(periodKey) {
             {
                 icon: 'fa-chart-line',
                 title: 'Общая эффективность выросла',
-                text: 'CPA снизился с 278₽ до 180₽, CTR вырос до 3.68%.'
+                text: 'CPA снизился с 278₽ до 215₽ (на 23%), CTR вырос до 3.68%.'
             },
             {
                 icon: 'fa-users',
