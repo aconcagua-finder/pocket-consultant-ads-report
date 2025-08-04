@@ -45,6 +45,26 @@
         </div>
     </header>
 
+    <!-- Period Switcher -->
+    <section class="period-switcher">
+        <div class="container">
+            <div class="switcher-wrapper" data-aos="fade-up" data-aos-delay="100">
+                <button class="period-btn" data-period="period1" onclick="updatePeriodData('period1')">
+                    <i class="fas fa-calendar-day"></i>
+                    <span>3-15 июля</span>
+                </button>
+                <button class="period-btn active" data-period="period2" onclick="updatePeriodData('period2')">
+                    <i class="fas fa-calendar-week"></i>
+                    <span>16 июля - 3 августа</span>
+                </button>
+                <button class="period-btn" data-period="periodAll" onclick="updatePeriodData('periodAll')">
+                    <i class="fas fa-calendar-alt"></i>
+                    <span>Все время</span>
+                </button>
+            </div>
+        </div>
+    </section>
+
     <!-- Hero Section -->
     <section class="hero" id="overview">
         <div class="container">
@@ -77,12 +97,108 @@
         </div>
     </section>
 
+    <!-- Period Comparison Section (Only for All Time) -->
+    <section class="comparison-section" id="comparisonSection" style="display: none;">
+        <div class="container">
+            <h2 data-aos="fade-up">Сравнительный анализ периодов</h2>
+            
+            <div class="comparison-grid" data-aos="fade-up" data-aos-delay="200">
+                <div class="comparison-card">
+                    <h3><i class="fas fa-calendar-check"></i> Первый период (3-15 июля)</h3>
+                    <div class="comparison-stats">
+                        <div class="stat-row">
+                            <span>Бюджет:</span>
+                            <strong>25 062₽</strong>
+                        </div>
+                        <div class="stat-row">
+                            <span>Конверсии:</span>
+                            <strong>90</strong>
+                        </div>
+                        <div class="stat-row">
+                            <span>CPA:</span>
+                            <strong>278₽</strong>
+                        </div>
+                        <div class="stat-row">
+                            <span>CTR:</span>
+                            <strong>3.24%</strong>
+                        </div>
+                        <div class="stat-row">
+                            <span>Лучшая кампания:</span>
+                            <strong>Поиск (CPA 255₽)</strong>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="comparison-card improved">
+                    <h3><i class="fas fa-calendar-week"></i> Второй период (16 июля - 3 августа)</h3>
+                    <div class="comparison-stats">
+                        <div class="stat-row">
+                            <span>Бюджет:</span>
+                            <strong>17 952₽</strong>
+                        </div>
+                        <div class="stat-row">
+                            <span>Конверсии:</span>
+                            <strong>100</strong>
+                        </div>
+                        <div class="stat-row">
+                            <span>CPA:</span>
+                            <strong class="positive">180₽ (-35%)</strong>
+                        </div>
+                        <div class="stat-row">
+                            <span>CTR:</span>
+                            <strong class="positive">3.68% (+13%)</strong>
+                        </div>
+                        <div class="stat-row">
+                            <span>Лучшая кампания:</span>
+                            <strong>МК (CPA 168₽)</strong>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="comparison-insights" data-aos="fade-up" data-aos-delay="400">
+                <h3><i class="fas fa-lightbulb"></i> Ключевые изменения между периодами</h3>
+                <div class="insights-list">
+                    <div class="insight-item positive">
+                        <i class="fas fa-check-circle"></i>
+                        <p><strong>Снижение CPA на 35%:</strong> Оптимизация кампаний привела к существенному снижению стоимости привлечения с 278₽ до 180₽</p>
+                    </div>
+                    <div class="insight-item positive">
+                        <i class="fas fa-check-circle"></i>
+                        <p><strong>Рост CTR на 13%:</strong> Улучшение креативов и таргетинга повысило кликабельность объявлений</p>
+                    </div>
+                    <div class="insight-item positive">
+                        <i class="fas fa-check-circle"></i>
+                        <p><strong>Эффективность мастер-кампании:</strong> Автоматизированный таргетинг показал лучшие результаты, чем ручное управление</p>
+                    </div>
+                    <div class="insight-item warning">
+                        <i class="fas fa-exclamation-circle"></i>
+                        <p><strong>Снижение бюджета на 28%:</strong> Меньший бюджет во втором периоде, но более эффективное использование</p>
+                    </div>
+                    <div class="insight-item positive">
+                        <i class="fas fa-check-circle"></i>
+                        <p><strong>Рост женской аудитории:</strong> Доля женщин выросла с 59% до 66%, их CPA снизился с 241₽ до 152₽</p>
+                    </div>
+                    <div class="insight-item positive">
+                        <i class="fas fa-check-circle"></i>
+                        <p><strong>Десктопы стали эффективнее:</strong> CPA на десктопах снизился с 249₽ до 115₽ (на 54%)</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="comparison-summary" data-aos="fade-up" data-aos-delay="600">
+                <h3><i class="fas fa-chart-line"></i> Итоговые рекомендации</h3>
+                <p>Второй период демонстрирует значительное улучшение эффективности рекламных кампаний. Рекомендуем продолжить использование мастер-кампаний с автоматизированным таргетингом, усилить фокус на женскую аудиторию 18-34 лет и увеличить долю десктопного трафика. При масштабировании бюджета до уровня первого периода можно ожидать получения 140+ конверсий при сохранении улучшенного CPA.</p>
+            </div>
+        </div>
+    </section>
+
     <!-- Main Overview -->
     <section class="overview-section" id="campaigns">
         <div class="container">
             <h2 data-aos="fade-up">Обзор кампаний</h2>
             
-            <div class="campaigns-grid">
+            <div class="campaigns-grid" id="campaignsGrid">
                 <!-- Поисковая кампания -->
                 <div class="campaign-card best-performer" data-aos="fade-up" data-aos-delay="200">
                     <div class="campaign-header">
@@ -524,7 +640,7 @@
             <h2 data-aos="fade-up">Демографическая и географическая аналитика</h2>
             
             <!-- Gender & Age Analysis -->
-            <div class="demo-grid" data-aos="fade-up" data-aos-delay="200">
+            <div class="demo-grid" id="demoGrid" data-aos="fade-up" data-aos-delay="200">
                 <div class="demo-card">
                     <h3><i class="fas fa-venus-mars"></i> Анализ по полу</h3>
                     <div class="demo-stats">
@@ -596,7 +712,7 @@
             <!-- Geography Analysis -->
             <div class="geography-section" data-aos="fade-up" data-aos-delay="400">
                 <h3><i class="fas fa-map-marked-alt"></i> Географическое распределение</h3>
-                <div class="regions-grid">
+                <div class="regions-grid" id="regionsGrid">
                     <div class="region-card best">
                         <div class="region-header">
                             <h4>Дальневосточный ФО</h4>
@@ -685,7 +801,7 @@
             <!-- Device Analysis -->
             <div class="devices-section" data-aos="fade-up" data-aos-delay="600">
                 <h3><i class="fas fa-devices"></i> Анализ по устройствам</h3>
-                <div class="devices-grid">
+                <div class="devices-grid" id="devicesGrid">
                     <div class="device-card dominant">
                         <div class="device-icon">
                             <i class="fas fa-mobile-alt"></i>
@@ -823,6 +939,11 @@
             </div>
         </div>
     </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="backToTop" onclick="window.scrollTo({top: 0, behavior: 'smooth'})">
+        <i class="fas fa-chevron-up"></i>
+    </button>
 
     <script src="script.js"></script>
 </body>
